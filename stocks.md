@@ -1,6 +1,8 @@
 Atualização de estoque
 ======================
 
+API de atualização de preços e estoque para o EasyFarma.
+
 Parâmetros
 ----------
 
@@ -30,7 +32,11 @@ Por sua vez, o parâmetro _medicines_ possui a estrutura:
       }
     ]
 ```
-Não existe nenhum limite no número de produtos, mas é recomendável que qualquer atualização grande de estoque seja feita em blocos de no máximo 1000 produtos.
+
+Cadastro inicial
+----------------
+
+A sintaxe para o cadastro inicial é exatamente a mesma, mudando apenas o número de produtos por requisição. Não existe nenhum limite no número de produtos, mas é recomendável que qualquer atualização grande de estoque seja feita em blocos de no máximo 1000 produtos.
 
 
 Exemplo
